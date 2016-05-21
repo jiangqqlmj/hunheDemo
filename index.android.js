@@ -10,6 +10,7 @@ import {
   Text,
   View,
   TouchableHighlight,
+  ToastAndroid,
 } from 'react-native';
 var { NativeModules } = require('react-native');
 class CustomButton extends Component {
@@ -31,9 +32,10 @@ class hunheDemo extends Component {
      //进行从Activity中获取数据传输到JS
      NativeModules.IntentModule.dataToJS((msg) => {
                     console.log(msg);
+                    ToastAndroid.show('JS界面:从Activity中传输过来的数据为:'+msg,ToastAndroid.SHORT);
                   },
                    (result) => {
-                    console.log('从Activity中传输过来的数据为:'+result);
+                    ToastAndroid.show('JS界面:错误信息为:'+result,ToastAndroid.SHORT);
                   })
 
   }
@@ -41,7 +43,7 @@ class hunheDemo extends Component {
     return (
       <View>
         <Text style={styles.welcome}>
-           JS跳转Activity界面
+           React/JS与原生交互,数据通信实例
         </Text>
         <CustomButton
           text="点击跳转到Activity界面"
@@ -49,7 +51,12 @@ class hunheDemo extends Component {
         />
         <CustomButton
           text="点击跳转到Activity界面,并且等待数据返回..."
-           
+          onPress={()=>NativeModules.IntentModule.startActivityFromJSGetResult("com.hunhedemo.ThreeActivity",200,(msg) => {
+                    ToastAndroid.show('JS界面:从Activity中传输过来的数据为:'+msg,ToastAndroid.SHORT);
+                  },
+                   (result) => {
+                    ToastAndroid.show('JS界面:错误信息为:'+result,ToastAndroid.SHORT);
+                  })} 
         />
       </View>
     );
