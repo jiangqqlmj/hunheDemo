@@ -67,4 +67,15 @@ public class IntentModule  extends ReactContextBaseJavaModule {
                     "不能打开Activity : "+e.getMessage());
         }
     }
+
+    /**
+     * 从JS页面
+     * @param name
+     * @param successBack
+     * @param errorBack
+     */
+    @ReactMethod
+    public void startActivityFromJSAndResult(String name,Callback successBack, Callback errorBack){
+
+    }
 }

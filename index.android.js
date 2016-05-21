@@ -47,6 +47,10 @@ class hunheDemo extends Component {
           text="点击跳转到Activity界面"
           onPress={()=>NativeModules.IntentModule.startActivityFromJS("com.hunhedemo.TwoActivity","我是从JS传过来的参数信息.456")}
         />
+        <CustomButton
+          text="点击跳转到Activity界面,并且等待数据返回..."
+           
+        />
       </View>
     );
   }
