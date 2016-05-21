@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/jiangqq/Documents/react_project/hunheDemo/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.26.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="80762a4bb84c50a94e63a9386f46f5b8751762ca">
+        <dex dex="/Users/jiangqq/Documents/react_project/hunheDemo/android/app/build/intermediates/pre-dexed/debug/classes-e75fbb6aea5330d6efee5dd29dbe21acfd508e56.jar" />
+    </item>
+    <item
+        jar="/Users/jiangqq/Documents/react_project/hunheDemo/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="/Users/jiangqq/Documents/react_project/hunheDemo/android/app/build/intermediates/pre-dexed/debug/classes-b054ceb79d71deeed8064ee3825f48ee14cf8374.jar" />
+    </item>
+    <item
+        jar="/Users/jiangqq/Documents/react_project/hunheDemo/android/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/0.8.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="845a5b3a624946b2068963ba656c117fc453701c">
+        <dex dex="/Users/jiangqq/Documents/react_project/hunheDemo/android/app/build/intermediates/pre-dexed/debug/classes-e2bc52780552825a6043d53508fe08c894d16009.jar" />
+    </item>
+    <item
+        jar="/Users/jiangqq/Documents/react_project/hunheDemo/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/libs/internal_impl-23.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
+        <dex dex="/Users/jiangqq/Documents/react_project/hunheDemo/android/app/build/intermediates/pre-dexed/debug/internal_impl-23.0.1-545b7d82c14ab196b26372e7c352c7321b335694.jar" />
+    </item>
+    <item
+        jar="/Users/jiangqq/Documents/react_project/hunheDemo/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/0.8.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="3836ecca4e31e18ea8fbae8e822d49777b0db4f7">
+        <dex dex="/Users/jiangqq/Documents/react_project/hunheDemo/android/app/build/intermediates/pre-dexed/debug/classes-d4b835e723cdf41b815c8ba471c7070366165e86.jar" />
+    </item>
+    <item
+        jar="/Users/jiangqq/Documents/react_project/hunheDemo/android/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="4356e230a981d1bbf047d848b91bc0d9b7c5bacc">
+        <dex dex="/Users/jiangqq/Documents/react_project/hunheDemo/android/app/build/intermediates/pre-dexed/debug/classes-cf7f425e111eb22d7ca9e0ae42c2946477ab836b.jar" />
+    </item>
+    <item
+        jar="/Users/jiangqq/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp/2.5.0/4de2b4ed3445c37ec1720a7d214712e845a24636/okhttp-2.5.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="4de2b4ed3445c37ec1720a7d214712e845a24636">
+        <dex dex="/Users/jiangqq/Documents/react_project/hunheDemo/android/app/build/intermediates/pre-dexed/debug/okhttp-2.5.0-e598bdc3385eb8f78603045776ff3f213bb4971d.jar" />
+    </item>
+    <item
+        jar="/Users/jiangqq/Documents/react_project/hunheDemo/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.26.0/jars/libs/infer-annotations-1.5.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="346d6dc48105399df3f76194235cbb4bb9ad350e">
+        <dex dex="/Users/jiangqq/Documents/react_project/hunheDemo/android/app/build/intermediates/pre-dexed/debug/infer-annotations-1.5-4c83490b45f46b59b06a729ee46522fd7822cb11.jar" />
+    </item>
+    <item
+        jar="/Users/jiangqq/.gradle/caches/modules-2/files-2.1/com.nineoldandroids/library/2.4.0/e9b63380f3a242dbdbf103a2355ad7e43bad17cb/library-2.4.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="/Users/jiangqq/Documents/react_project/hunheDemo/android/app/build/intermediates/pre-dexed/debug/library-2.4.0-88d0b6010512afa5b493e711b71bd97cd10c10df.jar" />
+    </item>
+    <item
+        jar="/Users/jiangqq/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-android/1.1.4/129874135e6081269ace2312092031558865de12/bolts-android-1.1.4.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="129874135e6081269ace2312092031558865de12">
+        <dex dex="/Users/jiangqq/Documents/react_project/hunheDemo/android/app/build/intermediates/pre-dexed/debug/bolts-android-1.1.4-ace0b8e415dcfc2e7955b4a1a4924ff738d1b83b.jar" />
+    </item>
+    <item
+        jar="/Users/jiangqq/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.2.3/1a0113da2cab5f4c216b4e5e7c1dbfaa67087e14/jackson-core-2.2.3.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1a0113da2cab5f4c216b4e5e7c1dbfaa67087e14">
+        <dex dex="/Users/jiangqq/Documents/react_project/hunheDemo/android/app/build/intermediates/pre-dexed/debug/jackson-core-2.2.3-59ff3f8393c2cb8ff36700d134e6b6a908eaace1.jar" />
+    </item>
+    <item
+        jar="/Users/jiangqq/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp-ws/2.5.0/e9753b7dcae5deca92e871c5c759067070b07bc/okhttp-ws-2.5.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="0e9753b7dcae5deca92e871c5c759067070b07bc">
+        <dex dex="/Users/jiangqq/Documents/react_project/hunheDemo/android/app/build/intermediates/pre-dexed/debug/okhttp-ws-2.5.0-45f644ddcd086ee3dd10fb8907336bdcd4da3064.jar" />
+    </item>
+    <item
+        jar="/Users/jiangqq/Documents/react_project/hunheDemo/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
+        <dex dex="/Users/jiangqq/Documents/react_project/hunheDemo/android/app/build/intermediates/pre-dexed/debug/classes-5c839823df1c0e8b6143d2bbd3b185cc21819168.jar" />
+    </item>
+    <item
+        jar="/Users/jiangqq/.m2/repository/com/squareup/okio/okio/1.6.0/okio-1.6.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="98476622f10715998eacf9240d6b479f12c66143">
+        <dex dex="/Users/jiangqq/Documents/react_project/hunheDemo/android/app/build/intermediates/pre-dexed/debug/okio-1.6.0-bd432c612ca1cdac083372a7f3c951729bc4ff97.jar" />
+    </item>
+    <item
+        jar="/Users/jiangqq/Documents/react_project/hunheDemo/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-okhttp/0.8.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="0d5d69b03cb7d68b81543f6483ed04ccb0e2235b">
+        <dex dex="/Users/jiangqq/Documents/react_project/hunheDemo/android/app/build/intermediates/pre-dexed/debug/classes-3f715ec443268e2435f168743c847982aa2e4f85.jar" />
+    </item>
+    <item
+        jar="/Users/jiangqq/Documents/android-sdk-macosx/extras/android/m2repository/com/android/support/support-annotations/23.0.1/support-annotations-23.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
+        <dex dex="/Users/jiangqq/Documents/react_project/hunheDemo/android/app/build/intermediates/pre-dexed/debug/support-annotations-23.0.1-443d225c512e8571a12eabc2fb99bcdf195e5e01.jar" />
+    </item>
+    <item
+        jar="/Users/jiangqq/Documents/react_project/hunheDemo/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fresco/0.8.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="9178570a3a28c95fabd3bc746cd68efe99ad2b47">
+        <dex dex="/Users/jiangqq/Documents/react_project/hunheDemo/android/app/build/intermediates/pre-dexed/debug/classes-f90f394c2ca198242e4dd77a38031bd0a957d732.jar" />
+    </item>
+    <item
+        jar="/Users/jiangqq/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.0/5871fb60dc68d67da54a663c3fd636a10a532948/jsr305-3.0.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
+        <dex dex="/Users/jiangqq/Documents/react_project/hunheDemo/android/app/build/intermediates/pre-dexed/debug/jsr305-3.0.0-25311a3653187efc11aafecdb8314db95c9dd5df.jar" />
+    </item>
+    <item
+        jar="/Users/jiangqq/Documents/react_project/hunheDemo/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/0.8.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="4af24c040b21980e0a80a505816c648e36705bd9">
+        <dex dex="/Users/jiangqq/Documents/react_project/hunheDemo/android/app/build/intermediates/pre-dexed/debug/classes-a44e2d7c4ae8082a11e3c46aa526731d48b2c26f.jar" />
+    </item>
+
+</items>
