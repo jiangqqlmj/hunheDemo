@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/Users/jiangqq/Documents/react_project/hunheDemo/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.26.0/res/values-fb-rLL/values-fb-rLL.xml -->
+    <!-- From: file:/Users/jiangqq/Documents/OSChina_PP/hunheDemo/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.26.0/res/values-fb-rLL/values-fb-rLL.xml -->
     <eat-comment/>
     <string name="catalyst_debugjs">Debug JS</string>
     <string name="catalyst_element_inspector">(तत्व निरीक्षण गर्नुहोस्)</string>

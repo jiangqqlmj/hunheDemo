@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Toast;
 
 public class TwoActivity extends AppCompatActivity {
 
@@ -15,7 +16,8 @@ public class TwoActivity extends AppCompatActivity {
         setContentView(R.layout.activity_two);
         Intent mIntent=getIntent();
         if(mIntent!=null) {
-            Log.d("zttjiangqq", "从JS传过来的数据为:" + mIntent.getStringExtra("params"));
+            Toast.makeText(this,"原生:从JS传过来的数据为:"+mIntent.getStringExtra("params"),Toast.LENGTH_SHORT).show();;
+
         }
         Button btn_two=(Button)this.findViewById(R.id.btn_two);
         btn_two.setOnClickListener(new View.OnClickListener() {
