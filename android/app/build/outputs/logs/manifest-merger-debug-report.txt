@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/jiangqq/Documents/OSChina_PP/hunheDemo/android/app/src/main/AndroidManifest.xml:2:1-38:12
+ADDED from /Users/jiangqq/Documents/OSChina_PP/hunheDemo/android/app/src/main/AndroidManifest.xml:2:1-39:12
 	xmlns:android
 		ADDED from /Users/jiangqq/Documents/OSChina_PP/hunheDemo/android/app/src/main/AndroidManifest.xml:2:11-69
 	package
@@ -67,7 +67,7 @@ ADDED from /Users/jiangqq/Documents/OSChina_PP/hunheDemo/android/app/src/main/An
 	android:name
 		ADDED from /Users/jiangqq/Documents/OSChina_PP/hunheDemo/android/app/src/main/AndroidManifest.xml:16:30-85
 application
-ADDED from /Users/jiangqq/Documents/OSChina_PP/hunheDemo/android/app/src/main/AndroidManifest.xml:18:5-36:19
+ADDED from /Users/jiangqq/Documents/OSChina_PP/hunheDemo/android/app/src/main/AndroidManifest.xml:18:5-37:19
 MERGED from [com.android.support:appcompat-v7:23.0.1] /Users/jiangqq/Documents/OSChina_PP/hunheDemo/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:support-v4:23.0.1] /Users/jiangqq/Documents/OSChina_PP/hunheDemo/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/AndroidManifest.xml:22:5-20
 MERGED from [com.facebook.react:react-native:0.26.0] /Users/jiangqq/Documents/OSChina_PP/hunheDemo/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.26.0/AndroidManifest.xml:13:5-20
@@ -86,14 +86,14 @@ MERGED from [com.android.support:support-v4:23.0.1] /Users/jiangqq/Documents/OSC
 		ADDED from /Users/jiangqq/Documents/OSChina_PP/hunheDemo/android/app/src/main/AndroidManifest.xml:20:9-43
 	android:theme
 		ADDED from /Users/jiangqq/Documents/OSChina_PP/hunheDemo/android/app/src/main/AndroidManifest.xml:22:9-40
-activity#com.hunhedemo.MainActivity
+activity#com.hunhedemo.WelcomeActivity
 ADDED from /Users/jiangqq/Documents/OSChina_PP/hunheDemo/android/app/src/main/AndroidManifest.xml:23:9-32:20
 	android:label
 		ADDED from /Users/jiangqq/Documents/OSChina_PP/hunheDemo/android/app/src/main/AndroidManifest.xml:26:13-45
 	android:configChanges
 		ADDED from /Users/jiangqq/Documents/OSChina_PP/hunheDemo/android/app/src/main/AndroidManifest.xml:25:13-83
 	android:name
-		ADDED from /Users/jiangqq/Documents/OSChina_PP/hunheDemo/android/app/src/main/AndroidManifest.xml:24:13-41
+		ADDED from /Users/jiangqq/Documents/OSChina_PP/hunheDemo/android/app/src/main/AndroidManifest.xml:24:13-44
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
 ADDED from /Users/jiangqq/Documents/OSChina_PP/hunheDemo/android/app/src/main/AndroidManifest.xml:27:13-31:29
 action#android.intent.action.MAIN
@@ -113,6 +113,10 @@ ADDED from /Users/jiangqq/Documents/OSChina_PP/hunheDemo/android/app/src/main/An
 	android:name
 		ADDED from /Users/jiangqq/Documents/OSChina_PP/hunheDemo/android/app/src/main/AndroidManifest.xml:34:19-46
 activity#com.hunhedemo.ThreeActivity
-ADDED from /Users/jiangqq/Documents/OSChina_PP/hunheDemo/android/app/src/main/AndroidManifest.xml:35:9-60
+ADDED from /Users/jiangqq/Documents/OSChina_PP/hunheDemo/android/app/src/main/AndroidManifest.xml:35:9-51
 	android:name
 		ADDED from /Users/jiangqq/Documents/OSChina_PP/hunheDemo/android/app/src/main/AndroidManifest.xml:35:19-48
+activity#com.hunhedemo.MainActivity
+ADDED from /Users/jiangqq/Documents/OSChina_PP/hunheDemo/android/app/src/main/AndroidManifest.xml:36:9-59
+	android:name
+		ADDED from /Users/jiangqq/Documents/OSChina_PP/hunheDemo/android/app/src/main/AndroidManifest.xml:36:19-47

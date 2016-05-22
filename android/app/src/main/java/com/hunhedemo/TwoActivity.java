@@ -26,6 +26,7 @@ public class TwoActivity extends AppCompatActivity {
                 Intent mIntent=new Intent(TwoActivity.this,MainActivity.class);
                 mIntent.putExtra("data","传入JS中的数据...123");
                 TwoActivity.this.startActivity(mIntent);
+                TwoActivity.this.finish();
             }
         });
     }
