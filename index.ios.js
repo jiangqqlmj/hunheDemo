@@ -9,44 +9,57 @@ import {
   AppRegistry,
   StyleSheet,
   Text,
-  View
+  View,
+  TouchableHighlight
 } from 'react-native';
-
+var { NativeModules } = require('react-native');
+var RNBridgeModule=NativeModules.RNBridgeModule;
+class CustomButton extends Component {
+  render() {
+    return (
+      <TouchableHighlight
+        style={styles.button}
+        underlayColor="#a5a5a5"
+        onPress={this.props.onPress}>
+        <Text style={styles.buttonText}>{this.props.text}</Text>
+      </TouchableHighlight>
+    );
+  }
+}
 class hunheDemo extends Component {
   render() {
     return (
-      <View style={styles.container}>
+      <View style={{marginTop:20}}>
         <Text style={styles.welcome}>
-          Welcome to React Native!
+           混合与RN,iOS通信实例讲解
         </Text>
-        <Text style={styles.instructions}>
-          To get started, edit index.ios.js
+        <Text style={{margin:20}}>
+           来自:江清清的技术专栏(http://www.lcode.org)
         </Text>
-        <Text style={styles.instructions}>
-          Press Cmd+R to reload,{'\n'}
-          Cmd+D or shake for dev menu
-        </Text>
+        <CustomButton text='RN调用iOS原生方法_CallBack回调'/>
+        <CustomButton text='RN调用iOS原生方法_Promise回调'/>
+        <CustomButton text='RN打开原生界面'
+           onPress={()=>RNBridgeModule.RNOpenVC('我就要打开VC界面...')
+           }
+        />
+        <CustomButton text='iOS调用访问React Native'/>
       </View>
     );
   }
 }
 
 const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-    backgroundColor: '#F5FCFF',
-  },
   welcome: {
     fontSize: 20,
     textAlign: 'center',
     margin: 10,
   },
-  instructions: {
-    textAlign: 'center',
-    color: '#333333',
-    marginBottom: 5,
+  button: {
+    margin:5,
+    backgroundColor: 'white',
+    padding: 10,
+    borderWidth: 1,
+    borderColor: '#facece',
   },
 });
 
