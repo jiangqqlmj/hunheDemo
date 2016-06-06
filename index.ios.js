@@ -14,6 +14,8 @@ import {
 } from 'react-native';
 var { NativeModules } = require('react-native');
 var RNBridgeModule=NativeModules.RNBridgeModule;
+import { NativeAppEventEmitter } from 'react-native';
+var subscription; //订阅者
 class CustomButton extends Component {
   render() {
     return (
@@ -27,6 +29,41 @@ class CustomButton extends Component {
   }
 }
 class hunheDemo extends Component {
+  constructor(props){
+    super(props);
+    this.state={
+        events:'',
+        msg:'',
+    }
+  }
+  //获取Promise对象处理
+  async _updateEvents(){
+    try{
+        var events=await RNBridgeModule.RNInvokeOCPromise({'name':'jiangqqlmj'});
+        this.setState({events});
+    }catch(e){
+        this.setState({events:e.message});
+    }
+  }
+  componentDidMount(){
+    console.log('开始订阅通知...');
+    subscription = NativeAppEventEmitter.addListener(
+         'EventReminder',
+          (reminder) => {
+            let errorCode=reminder.errorCode;
+            if(errorCode===0){
+               this.setState({msg:reminder.name});
+            }else{
+               this.setState({msg:reminder.msg});
+            }
+           
+          }
+         );
+  }
+  componentWillUnmount(){
+     subscription.remove();
+  }
+
   render() {
     return (
       <View style={{marginTop:20}}>
@@ -36,13 +73,32 @@ class hunheDemo extends Component {
         <Text style={{margin:20}}>
            来自:江清清的技术专栏(http://www.lcode.org)
         </Text>
-        <CustomButton text='RN调用iOS原生方法_CallBack回调'/>
-        <CustomButton text='RN调用iOS原生方法_Promise回调'/>
+        <Text style={{margin:5}}>'返回数据为:'+{this.state.events}</Text>
+        <CustomButton text='RN调用iOS原生方法_CallBack回调'
+          onPress={()=>{RNBridgeModule.RNInvokeOCCallBack(
+            {'name':'jiangqq','description':'http://www.lcode.org'},
+            (error,events)=>{
+                if(error){
+                  console.error(error);
+                }else{
+                  this.setState({events:events});
+                }
+          })}}
+        />
+        <CustomButton text='RN调用iOS原生方法_Promise回调'
+           onPress={()=>this._updateEvents()}
+        />
         <CustomButton text='RN打开原生界面'
            onPress={()=>RNBridgeModule.RNOpenVC('我就要打开VC界面...')
            }
         />
-        <CustomButton text='iOS调用访问React Native'/>
+        <Text style={{margin:20}}>
+          '返回数据为:'+{this.state.msg}
+        </Text>
+        <CustomButton text='iOS调用访问React Native'
+            onPress={()=>RNBridgeModule.VCOpenRN({'name':'jiangqqlmj'})}
+        />
+           
       </View>
     );
   }

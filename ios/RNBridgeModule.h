@@ -11,4 +11,5 @@
 #import <Foundation/Foundation.h>
 #import "RCTBridgeModule.h"
 @interface RNBridgeModule : NSObject<RCTBridgeModule>
+
 @end
