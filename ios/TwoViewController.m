@@ -25,7 +25,7 @@
 
 -(void)receivedMsg{
   NSLog(@"receivedMsg...");
-  [self.navigationController pushViewController:[ThreeViewController new] animated:YES];
+  [self.navigationController pushViewController:[[ThreeViewController alloc]init] animated:YES];
 }
 -(void)dealloc{
   [[NSNotificationCenter defaultCenter]removeObserver:self];

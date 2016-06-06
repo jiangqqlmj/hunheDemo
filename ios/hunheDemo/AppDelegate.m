@@ -31,7 +31,7 @@
    * `inet` value under `en0:`) and make sure your computer and iOS device are
    * on the same Wi-Fi network.
    */
-  UINavigationController *_nav=[[UINavigationController alloc]initWithRootViewController:[MainViewController new]];
+  UINavigationController *_nav=[[UINavigationController alloc]initWithRootViewController:[[MainViewController alloc]init]];
   self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
   self.window.rootViewController = _nav;
   [self.window makeKeyAndVisible];

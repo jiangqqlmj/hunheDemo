@@ -28,7 +28,7 @@
 }
 -(void)buttonAction:(UIButton *)button{
   NSLog(@"点击了按钮...");
-  [self.navigationController pushViewController:[TwoViewController new] animated:YES];
+  [self.navigationController pushViewController:[[TwoViewController alloc]init] animated:YES];
 }
 
 @end

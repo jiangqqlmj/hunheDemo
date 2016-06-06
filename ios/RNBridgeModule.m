@@ -34,10 +34,10 @@ RCT_EXPORT_METHOD(RNInvokeOCPromise:(NSDictionary *)dictionary resolver:(RCTProm
    }
 }
 //RN跳转原生界面
-RCT_EXPORT_METHOD(RNOpenVC:(NSString *)msg){
-   NSLog(@"RN传入原生界面的数据为:%@",msg);
-  [[NSNotificationCenter defaultCenter]postNotificationName:@"RNOpenVC" object:nil];
-}
+//RCT_EXPORT_METHOD(RNOpenVC:(NSString *)msg){
+//   NSLog(@"RN传入原生界面的数据为:%@",msg);
+//  [[NSNotificationCenter defaultCenter]postNotificationName:@"RNOpenVC" object:nil];
+//}
 
 //OC调用RN
 RCT_EXPORT_METHOD(VCOpenRN:(NSDictionary *)dictionary){

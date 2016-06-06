@@ -88,10 +88,6 @@ class hunheDemo extends Component {
         <CustomButton text='RN调用iOS原生方法_Promise回调'
            onPress={()=>this._updateEvents()}
         />
-        <CustomButton text='RN打开原生界面'
-           onPress={()=>RNBridgeModule.RNOpenVC('我就要打开VC界面...')
-           }
-        />
         <Text style={{margin:20}}>
           '返回数据为:'+{this.state.msg}
         </Text>
