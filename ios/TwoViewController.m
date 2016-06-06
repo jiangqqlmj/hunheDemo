@@ -10,7 +10,6 @@
 #import "RCTRootView.h"
 #import "ThreeViewController.h"
 @implementation TwoViewController
-
 - (void)viewDidLoad {
   [super viewDidLoad];
   self.title=@"RN界面";
@@ -20,14 +19,5 @@
                                                initialProperties:nil
                                                    launchOptions:nil];
   self.view=rootView;
-  [[NSNotificationCenter defaultCenter]addObserver:self selector:@selector(receivedMsg) name:@"RNOpenVC" object:nil];
-}
-
--(void)receivedMsg{
-  NSLog(@"receivedMsg...");
-  [self.navigationController pushViewController:[[ThreeViewController alloc]init] animated:YES];
-}
--(void)dealloc{
-  [[NSNotificationCenter defaultCenter]removeObserver:self];
 }
 @end
