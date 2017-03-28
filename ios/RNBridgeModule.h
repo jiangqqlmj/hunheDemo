@@ -9,7 +9,8 @@
  *  RN和iOS/OC桥接模块
  */
 #import <Foundation/Foundation.h>
-#import "RCTBridgeModule.h"
+#import <React/RCTBridgeModule.h>
+
 @interface RNBridgeModule : NSObject<RCTBridgeModule>
 
 @end
