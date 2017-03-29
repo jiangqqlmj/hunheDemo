@@ -9,7 +9,8 @@
 
 #import "AppDelegate.h"
 
-#import "RCTRootView.h"
+//#import "RCTRootView.h"
+#import <React/RCTRootView.h>
 
 #import "MainViewController.h"
 @implementation AppDelegate

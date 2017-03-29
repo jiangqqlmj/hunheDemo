@@ -7,7 +7,8 @@
 //
 
 #import "TwoViewController.h"
-#import "RCTRootView.h"
+#import <React/RCTRootView.h>
+
 #import "ThreeViewController.h"
 @implementation TwoViewController
 - (void)viewDidLoad {
